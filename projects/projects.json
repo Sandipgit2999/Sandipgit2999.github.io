@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Overstock Clone",
+    "desc": "Overstock.com is a site where users can buy various home decor & furnitures",
+    "image": "https://ak1.ostkcdn.com/img/mxc/OSTK_MAIN_LOGO_20181127KCH.jpg",
+    "category": "mern",
+    "links": {
+      "view": "https://jade-sopapillas-ac0a87.netlify.app/",
+      "code": "https://github.com/Sandipgit2999/OverStock"
+    }
+  },
+  {
+    "name": "Ndtv Clone",
+    "desc": "Ndtv.com is a news website. MERN Stack WebApp, ready to use for business.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7B5AkbU-dlQoAmojBW9wF3nHBnTO-v-kWadYNTgHIKqfrS4M7ux3PN3MEEJrBNBJ79Hc&usqp=CAU",
+    "category": "mern",
+    "links": {
+      "view": "https://radiant-lamington-32bf35.netlify.app/",
+      "code": "https://github.com/Sandipgit2999/ndtv-clone"
+    }
+  },
+  {
+    "name": "Bluemercury Clone",
+    "desc": " Bluemercury is a company that specializes in beauty product and spa services such as facials, skin care, and cosmetics.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9syGA5KAgGhy8z-M_dXlbZx1H1ROu6azBWULY-VAEsmQs81VLjBVaYkqFkAk4rg4MQ&usqp=CAU",
+    "category": "mern",
+    "links": {
+      "view": "https://affable-scissors-7552.vercel.app/",
+      "code": "https://github.com/Sandipgit2999/affable-scissors-7552"
+    }
+  },
+  {
+    "name": "Timecamp Clone",
+    "desc": " Timexamp's main working area is to manage time and give efffective output of tasks, so it is mainly designed to track your time",
+    "image": "https://cdn-m.timecamp.com/img/timecamp-time-tracking-software.jpg",
+    "category": "mern",
+    "links": {
+      "view": "https://timecamp-clone.netlify.app/",
+      "code": "https://github.com/Sandipgit2999/Timecamp-Clone"
+    }
+  }
+]
