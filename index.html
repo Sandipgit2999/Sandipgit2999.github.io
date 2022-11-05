@@ -187,22 +187,33 @@
         </div>
       </div>
       <section style="margin-top: 50px" class="skills" id="skills">
-        <h1 class="heading"><span> Skills Stats</span></h1>
-        <img
-          style="margin-left: 50px; margin-top: 50px; width: 90%"
-          src="./assets/images/stats.png"
-          alt=""
-        />
+        <h1 class="heading"><span> GitHub Stats</span></h1>
+       
+        <p align="center">
+          <a  href="https://github.com/Sandipgit2999/github-readme-stats"><img alt="Sandip's Github Stats" width="70%" src="https://github-readme-stats.vercel.app/api?username=Sandipgit2999&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+          <p align="center">
+            <a href="https://github.com/Sandipgit2999/github-readme-stats"><img alt="Sandip Suryawanshi's Top Languages" width="60%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sandipgit2999&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
+            </p>
+           <br/>
+         
+         <p align="center">
+             <a href="https://github.com/Sandipgit2999/github-readme-streak-stats">
+                 <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Sandip Suryawanshi's streak" width="60%"  src="https://github-readme-streak-stats.herokuapp.com/?user=Sandipgit2999&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"/>
+             </a>
+         </p>
+         </p>
       </section>
-      <section class="skills" id="skills">
+      <section width="50%" class="skills" id="skills">
         <h1 class="heading">My <span>GitHub Calender</span></h1>
 
         <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 
         <!-- Prepare a container for your calendar. -->
-        <div class="calendar" style="width: 90%; height: 200px">
-          <!-- Loading stuff -->
-          Loading the data just for you.
+        <div  style="color:white; ">
+          <div class="calendar"   style="color: white; width: auto; size: 25px 54px; "  >
+            <!-- Loading stuff -->
+            Loading the data just for you.
+          </div>
         </div>
       </section>
     </section>
@@ -446,7 +457,7 @@
       GitHubCalendar(".calendar", "Sandipgit2999");
 
       // or enable responsive functionality:
-      GitHubCalendar(".calendar", "Sandipgit2999", { responsive: true });
+      GitHubCalendar(".calendar", "Sandipgit2999", { responsive: true,global_stats: true,tooltipas:true });
 
       // Use a proxy
       GitHubCalendar(".calendar", "Sandipgit2999", {
