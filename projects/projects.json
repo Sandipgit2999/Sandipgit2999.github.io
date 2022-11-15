@@ -28,15 +28,6 @@
       "view": "https://affable-scissors-7552.vercel.app/",
       "code": "https://github.com/Sandipgit2999/affable-scissors-7552"
     }
-  },
-  {
-    "name": "Timecamp Clone",
-    "desc": " Timexamp's main working area is to manage time and give efffective output of tasks, so it is mainly designed to track your time",
-    "image": "https://cdn-m.timecamp.com/img/timecamp-time-tracking-software.jpg",
-    "category": "mern",
-    "links": {
-      "view": "https://timecamp-clone.netlify.app/",
-      "code": "https://github.com/Sandipgit2999/Timecamp-Clone"
-    }
   }
+  
 ]
