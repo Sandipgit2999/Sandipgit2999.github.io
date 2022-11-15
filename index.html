@@ -21,6 +21,12 @@
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
     />
 
+    <link
+    rel="stylesheet"
+    href="./assets/css/github calendar.css"
+  />
+  
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -58,6 +64,8 @@
           <li><a href="#work">Work</a></li>
           <!-- <li><a href="#experience">Experience</a></li> -->
           <li><a href="#contact">Contact</a></li>
+          <li><a style="cursor: pointer;" target="_blank"
+            href="https://drive.google.com/file/d/1d0Jrkwtuf3BfhLwHEJ6VeZtUBRcdJUTY/view?usp=sharing">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -157,13 +165,20 @@
           </div>
 
           <div class="resumebtn">
-            <a
+            <!-- <a
               target="_blank"
-              href="https://drive.google.com/file/d/1d0Jrkwtuf3BfhLwHEJ6VeZtUBRcdJUTY/view?usp=sharing"
+              href="assets/Sandip_ Suryawanshi_Resume (1).pdf"
               class="btn"
               ><span>Resume</span>
               <i class="fas fa-chevron-right"></i>
-            </a>
+            </a> -->
+
+            <a href="./assets/Sandip_ Suryawanshi_Resume.pdf"  class="btn" download target="_blank">
+              <span  onclick="runredirect()">
+             My Resume
+          </span>
+          <i class="fas fa-chevron-right"></i>
+          </a>
           </div>
         </div>
       </div>
@@ -203,18 +218,27 @@
          </p>
          </p>
       </section>
+
+      
       <section width="80%" class="skills" id="skills">
         <h1 class="heading">My <span>GitHub Calender</span></h1>
+        <!-- <div class="work__filters">
+          <span class="work__item" data-filter=".github-calendar">GitHub calendar</span>
+      </div> -->
 
+      <div class="calendar">
+          <!-- Loading stuff -->
+          Loading the data just for you.
+      </div>
         <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
 
         <!-- Prepare a container for your calendar. -->
         <!-- <div  style="color:white; ">
-          <div class="calendar"   style="color: white; width: auto; size: 25px 54px; "  >
+          <div class="calendar"   style="color: white;  "  >
             Loading the data just for you.
           </div>
         </div>  -->
-        <img style=" width: 100%; height: 50%; " src="./assets/images/githubcalendar2.png" alt="github-calendar" >
+        <!-- <img style=" width: 100%; height: 50%; " src="./assets/images/githubcalendar2.png" alt="github-calendar" > -->
        
       </section>
     </section>
@@ -458,14 +482,22 @@
       GitHubCalendar(".calendar", "Sandipgit2999");
 
       // or enable responsive functionality:
-      GitHubCalendar(".calendar", "Sandipgit2999", { responsive: true,global_stats: true,tooltipas:true });
+      GitHubCalendar(".calendar", "Sandipgit2999", { responsive: true,global_stats: false, });
 
       // Use a proxy
-      GitHubCalendar(".calendar", "Sandipgit2999", {
-        proxy(username) {
-          return fetch(`https://your-proxy.com/github?user=${username}`);
-        },
-      }).then((r) => r.text());
+      // GitHubCalendar(".calendar", "Sandipgit2999", {
+      //   proxy(username) {
+      //     return fetch(`https://your-proxy.com/github?user=${username}`);
+      //   },
+      // }).then((r) => r.text());
     </script>
+
+
+<script>
+  var runredirect = function(){
+      var redirectw1 = window.open('https://drive.google.com/file/d/1d0Jrkwtuf3BfhLwHEJ6VeZtUBRcdJUTY/view?usp=share_link');
+      redirectw1.location;
+  }
+</script>
   </body>
 </html>
